@@ -1,0 +1,38 @@
+.article-img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.article-container {
+  display: grid;
+  aspect-ratio: 1/1.5;
+  border-radius: 10px;
+  /* border: 3px solid hotpink; */
+}
+
+.article-container > * {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.article-content {
+  background: white;
+  align-self: end;
+  margin: 0.5rem 0.5rem 2rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  box-shadow: 0 0.2rem 0.5rem black;
+}
+
+@media (min-width: 40em) {
+  .featured {
+    grid-row: span 2;
+    grid-column: span 2;
+  }
+
+  .featured .article-img {
+    aspect-ratio: 1/1.25;
+  }
+}
