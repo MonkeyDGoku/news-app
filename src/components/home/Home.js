@@ -39,7 +39,7 @@ function Home() {
 
     return (
         <div className="home">
-            <Dropdown>
+            {/* <Dropdown>
                 <Dropdown.Toggle variant="success" id="dropdown-basic">
                     Country1
                 </Dropdown.Toggle>
@@ -51,7 +51,7 @@ function Home() {
                             href="#/action-1">{country}</Dropdown.Item>
                     ))}
                 </Dropdown.Menu>
-            </Dropdown>
+            </Dropdown> */}
             <div className='news-body'>
                 {articles.map((article, index) => (
                     <Article

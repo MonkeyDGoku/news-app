@@ -18,14 +18,19 @@
 }
 
 .article-content {
-  background: white;
+  background: #ffe4c4;
   align-self: end;
   margin: 0.5rem 0.5rem 2rem;
   padding: 0.5rem;
   border-radius: 5px;
-  box-shadow: 0 0.2rem 0.5rem black;
+  /* box-shadow: 0 0.3rem 0.5rem 0 var(--green-shade-300); */
+  font-size: 0.75rem;
+  border-left: 5px solid var(--brown-shade-100);
 }
 
+.article-container h3 {
+  font-size: 1.25rem;
+}
 @media (min-width: 40em) {
   .featured {
     grid-row: span 2;

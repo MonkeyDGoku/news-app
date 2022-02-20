@@ -1,0 +1,29 @@
+$brown-shade-100: #e2430b;
+$brown-shade-200: #d63600b3;
+
+$brown-shade-300: #b42f00;
+
+$brown-shade-400: #632611;
+
+$brown-shade-500: #090909;
+$gray-shade-200: #3f3f3fb3;
+
+$gray-shade-100: #adadad;
+$green-shade-100: #89ad19;
+$green-shade-200: #65ad19;
+$green-shade-300: #818181;
+$violet-shade-100: #551a8b;
+
+:export {
+  brown-shade-100: $brown-shade-100;
+  brown-shade-200: $brown-shade-200;
+  brown-shade-300: $brown-shade-300;
+  brown-shade-400: $brown-shade-400;
+  brown-shade-500: $brown-shade-500;
+  gray-shade-200: $gray-shade-200;
+  gray-shade-100: $gray-shade-100;
+  green-shade-100: $green-shade-100;
+  green-shade-200: $green-shade-200;
+  green-shade-300: $green-shade-300;
+  violet-shade-100: $violet-shade-100;
+}

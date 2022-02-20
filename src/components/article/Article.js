@@ -25,7 +25,11 @@ function Article({
             <div className="article-content">
                 <div className='article-right-content'>
                     <h3>{title?.substring(0, 20)}</h3>
-                    <p>{description?.substring(0, Math.min(50, description?.length))}</p>
+                    <p>{
+                        index === 0
+                            ? description?.substring(0, Math.min(500, description?.length))
+                            : description?.substring(0, Math.min(100, description?.length))
+                    }</p>
                 </div>
             </div>
 
